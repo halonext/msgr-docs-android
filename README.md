@@ -2,13 +2,7 @@
 
 # SETUP
  ## Environment
-   * Windows
-   * Mac
-   * Linux
-## Tool
-## Language
-   * Java
-   * Kotlin
+  * [Install Android Studio](https://developer.android.com/studio/install)
 #  Hello World Example
 
 # Basic Android
