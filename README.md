@@ -23,7 +23,7 @@
 * Toast
 * Custom Toast
 * ToggleButton
-* CheckBox
+* [CheckBox] (https://github.com/halonext/AndroidGuideline/wiki/CheckBox)
 * Custom CheckBox
 * RadioButton
 * Dynamic RadioButton
