@@ -26,7 +26,7 @@
 * [CheckBox](https://github.com/halonext/AndroidGuideline/wiki/CheckBox)
 * [Custom CheckBox](https://github.com/halonext/AndroidGuideline/wiki/Checkboxes)
 * [RadioButton](https://github.com/halonext/AndroidGuideline/wiki/RadioButton)
-* Dynamic RadioButton
+* [Dynamic RadioButton](https://github.com/halonext/AndroidGuideline/wiki/Dynamic-RadioButton)
 * Custom RadioButton
 * AlertDialog
 * Spinner
