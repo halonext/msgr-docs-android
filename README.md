@@ -29,7 +29,7 @@
 * [Dynamic RadioButton](https://github.com/halonext/AndroidGuideline/wiki/Dynamic-RadioButton)
 * [Custom RadioButton](https://github.com/halonext/AndroidGuideline/wiki/Custom-RadioButton)
 * [AlertDialog](https://github.com/halonext/AndroidGuideline/wiki/AlertDialog)
-* Spinner
+* [Spinner](https://github.com/halonext/AndroidGuideline/wiki/Spinner)
 * AutoCompleteTextView
 * ListView
 * Custom ListView
