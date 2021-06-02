@@ -30,7 +30,7 @@
 * [Custom RadioButton](https://github.com/halonext/AndroidGuideline/wiki/Custom-RadioButton)
 * [AlertDialog](https://github.com/halonext/AndroidGuideline/wiki/AlertDialog)
 * [Spinner](https://github.com/halonext/AndroidGuideline/wiki/Spinner)
-* AutoCompleteTextView
+* [AutoCompleteTextView](https://github.com/halonext/AndroidGuideline/wiki/AutoCompleteTextView)
 * ListView
 * Custom ListView
 * RatingBar
