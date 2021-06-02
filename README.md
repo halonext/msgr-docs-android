@@ -8,7 +8,7 @@
 
 # Basic Android
 ## Activity and Intents
- * Activity LifeCycle
+ * [Activity LifeCycle](https://github.com/halonext/AndroidGuideline/wiki/Android-Activity-Lifecycle)
  * Implicit Intent
  * Explicit Intent
  * StartActivityForResult
