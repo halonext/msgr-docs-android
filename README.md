@@ -4,7 +4,7 @@
  ## Environment
   * [Install Android Studio](https://developer.android.com/studio/install)
 #  Hello World Example
- * [HelloWorldApp](https://github.com/halonext/AndroidGuideline/wiki/HelloWorld-App)
+ * [HelloWorldApp](https://github.com/halonext/AndroidGuideline/wiki/Hello-World-App)
 
 # Basic Android
 ## Activity and Intents
