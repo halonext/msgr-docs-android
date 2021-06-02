@@ -18,7 +18,7 @@
 ## Navigation
  * Navigation 
 ## Android Widgets
-* UI Widgets
+* [UI Widgets](https://github.com/halonext/AndroidGuideline/wiki/Android-Widgets)
 * Working with Button
 * Toast
 * Custom Toast
