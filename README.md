@@ -33,7 +33,7 @@
 * [AutoCompleteTextView](https://github.com/halonext/AndroidGuideline/wiki/AutoCompleteTextView)
 * [ListView](https://github.com/halonext/AndroidGuideline/wiki/ListView)
 * Custom ListView
-* RatingBar
+* [RatingBar](https://github.com/halonext/AndroidGuideline/wiki/RatingBar)
 * WebView
 * SeekBar
 * DatePicker
