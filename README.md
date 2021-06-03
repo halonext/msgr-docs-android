@@ -39,7 +39,7 @@
 * [WebView](https://github.com/halonext/AndroidGuideline/wiki/WebView)
 * [SeekBar](https://github.com/halonext/AndroidGuideline/wiki/SeekBar)
 * [DatePicker](https://github.com/halonext/AndroidGuideline/wiki/DatePicker)
-* TimePicker
+* [TimePicker](https://github.com/halonext/AndroidGuideline/wiki/TimePicker)
 * Analog and Digital
 * ProgressBar
 * Vertical ScrollView
