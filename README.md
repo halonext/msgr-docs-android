@@ -19,6 +19,8 @@
  * Navigation 
 ## Android Widgets
 * [UI Widgets](https://github.com/halonext/AndroidGuideline/wiki/Android-Widgets)
+* Manifest.permission
+* Manifest.permission_group
 * Working with Button
 * Toast
 * Custom Toast
