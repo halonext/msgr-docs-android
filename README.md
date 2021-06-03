@@ -49,7 +49,7 @@
 * [ViewStub](https://github.com/halonext/AndroidGuideline/wiki/ViewStub)
 * [TabLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout)
 * [TabLayout with FrameLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout-with-FrameLayout)
-* SearchView
+* [SearchView](https://github.com/halonext/Android/wiki/SearchView)
 * SearchView on Toolbar
 * EditText with TextWatcher
 
