@@ -40,7 +40,7 @@
 * [SeekBar](https://github.com/halonext/AndroidGuideline/wiki/SeekBar)
 * [DatePicker](https://github.com/halonext/AndroidGuideline/wiki/DatePicker)
 * [TimePicker](https://github.com/halonext/AndroidGuideline/wiki/TimePicker)
-* Analog and Digital
+* [Analog and Digital](https://github.com/halonext/AndroidGuideline/wiki/Analog-and-Digital)
 * ProgressBar
 * Vertical ScrollView
 * Horizontal ScrollView
