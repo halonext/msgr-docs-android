@@ -36,7 +36,7 @@
 * [RatingBar](https://github.com/halonext/AndroidGuideline/wiki/RatingBar)
 * [WebView](https://github.com/halonext/AndroidGuideline/wiki/WebView)
 * [SeekBar](https://github.com/halonext/AndroidGuideline/wiki/SeekBar)
-* DatePicker
+* [DatePicker](https://github.com/halonext/AndroidGuideline/wiki/DatePicker)
 * TimePicker
 * Analog and Digital
 * ProgressBar
