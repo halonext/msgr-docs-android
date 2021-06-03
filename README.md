@@ -43,7 +43,7 @@
 * [Analog and Digital](https://github.com/halonext/AndroidGuideline/wiki/Analog-and-Digital)
 * [ProgressBar](https://github.com/halonext/AndroidGuideline/wiki/ProgressBar)
 * [Vertical ScrollView](https://github.com/halonext/AndroidGuideline/wiki/Vertical-ScrollView)
-* Horizontal ScrollView
+* [Horizontal ScrollView](https://github.com/halonext/AndroidGuideline/wiki/Horizontal-ScrollView)
 * ImageSwitcher
 * ImageSlider
 * ViewStub
