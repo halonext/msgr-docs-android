@@ -47,7 +47,7 @@
 * ImageSwitcher
 * ImageSlider
 * [ViewStub](https://github.com/halonext/AndroidGuideline/wiki/ViewStub)
-* TabLayout
+* [TabLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout)
 * TabLayout with FrameLayout
 * SearchView
 * SearchView on Toolbar
