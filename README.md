@@ -46,7 +46,7 @@
 * [Horizontal ScrollView](https://github.com/halonext/AndroidGuideline/wiki/Horizontal-ScrollView)
 * ImageSwitcher
 * ImageSlider
-* ViewStub
+* [ViewStub](https://github.com/halonext/AndroidGuideline/wiki/ViewStub)
 * TabLayout
 * TabLayout with FrameLayout
 * SearchView
