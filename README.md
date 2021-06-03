@@ -35,7 +35,7 @@
 * Custom ListView
 * [RatingBar](https://github.com/halonext/AndroidGuideline/wiki/RatingBar)
 * [WebView](https://github.com/halonext/AndroidGuideline/wiki/WebView)
-* SeekBar
+* [SeekBar](https://github.com/halonext/AndroidGuideline/wiki/SeekBar)
 * DatePicker
 * TimePicker
 * Analog and Digital
