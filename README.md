@@ -41,7 +41,7 @@
 * [DatePicker](https://github.com/halonext/AndroidGuideline/wiki/DatePicker)
 * [TimePicker](https://github.com/halonext/AndroidGuideline/wiki/TimePicker)
 * [Analog and Digital](https://github.com/halonext/AndroidGuideline/wiki/Analog-and-Digital)
-* ProgressBar
+* [ProgressBar](https://github.com/halonext/AndroidGuideline/wiki/ProgressBar)
 * Vertical ScrollView
 * Horizontal ScrollView
 * ImageSwitcher
