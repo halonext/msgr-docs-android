@@ -50,7 +50,7 @@
 * [TabLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout)
 * [TabLayout with FrameLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout-with-FrameLayout)
 * [SearchView](https://github.com/halonext/Android/wiki/SearchView)
-* SearchView on Toolbar
+* [SearchView on Toolbar](https://github.com/halonext/Android/wiki/SearchView-on-Toolbar)
 * EditText with TextWatcher
 
 # Example
