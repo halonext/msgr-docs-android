@@ -23,7 +23,7 @@
 * Manifest.permission_group
 * [Working with Button](https://github.com/halonext/Android/wiki/Android-Button-Example)
 * [Toast](https://github.com/halonext/Android/wiki/Android-Toast-Example)
-* Custom Toast
+* [Custom Toast](https://github.com/halonext/Android/wiki/Android-Custom-Toast-Example)
 * ToggleButton
 * [CheckBox](https://github.com/halonext/AndroidGuideline/wiki/CheckBox)
 * [Custom CheckBox](https://github.com/halonext/AndroidGuideline/wiki/Checkboxes)
