@@ -10,7 +10,7 @@
 ## Activity and Intents
  * [Activity LifeCycle](https://github.com/halonext/AndroidGuideline/wiki/Android-Activity-Lifecycle)
  * [Implicit Intent](https://github.com/halonext/Android/wiki/Implicit-Intent)
- * Explicit Intent
+ * [Explicit Intent](https://github.com/halonext/Android/wiki/Explicit-Intent)
  * StartActivityForResult
  * Share App Data
 ## Android Fragments
