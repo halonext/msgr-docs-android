@@ -44,7 +44,7 @@
 * [ProgressBar](https://github.com/halonext/AndroidGuideline/wiki/ProgressBar)
 * [Vertical ScrollView](https://github.com/halonext/AndroidGuideline/wiki/Vertical-ScrollView)
 * [Horizontal ScrollView](https://github.com/halonext/AndroidGuideline/wiki/Horizontal-ScrollView)
-* ImageSwitcher
+* [ImageSwitcher](https://github.com/halonext/Android/wiki/ImageSwitcher)
 * ImageSlider
 * [ViewStub](https://github.com/halonext/AndroidGuideline/wiki/ViewStub)
 * [TabLayout](https://github.com/halonext/AndroidGuideline/wiki/TabLayout)
