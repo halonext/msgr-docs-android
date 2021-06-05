@@ -34,7 +34,7 @@
 * [Spinner](https://github.com/halonext/AndroidGuideline/wiki/Spinner)
 * [AutoCompleteTextView](https://github.com/halonext/AndroidGuideline/wiki/AutoCompleteTextView)
 * [ListView](https://github.com/halonext/AndroidGuideline/wiki/ListView)
-* Custom ListView
+* [Custom ListView](https://github.com/halonext/Android/wiki/Custom-ListView)
 * [RatingBar](https://github.com/halonext/AndroidGuideline/wiki/RatingBar)
 * [WebView](https://github.com/halonext/AndroidGuideline/wiki/WebView)
 * [SeekBar](https://github.com/halonext/AndroidGuideline/wiki/SeekBar)
