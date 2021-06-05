@@ -24,7 +24,7 @@
 * [Working with Button](https://github.com/halonext/Android/wiki/Android-Button-Example)
 * [Toast](https://github.com/halonext/Android/wiki/Android-Toast-Example)
 * [Custom Toast](https://github.com/halonext/Android/wiki/Android-Custom-Toast-Example)
-* ToggleButton
+* [ToggleButton](https://github.com/halonext/Android/wiki/ToggleButton)
 * [CheckBox](https://github.com/halonext/AndroidGuideline/wiki/CheckBox)
 * [Custom CheckBox](https://github.com/halonext/AndroidGuideline/wiki/Checkboxes)
 * [RadioButton](https://github.com/halonext/AndroidGuideline/wiki/RadioButton)
