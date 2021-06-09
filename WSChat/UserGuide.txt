@@ -1,0 +1,9 @@
+use NodeJS run Server.js 
+Node Server.js
+
+Open 
+ChatActivity.kt
+Change URL 
+SERVER_PATH = "ws://10.1.1.56:3000"
+My URL
+
