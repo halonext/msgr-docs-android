@@ -62,15 +62,14 @@
   * [Option Menu](https://github.com/halonext/Android/wiki/Option-Menu)
   * [Context Menu](https://github.com/halonext/Android/wiki/Context-Menu)
   * [Popup Menu](https://github.com/halonext/Android/wiki/Popup-Menu)
- ## Android Socket
- * Android Socket
 ## Android database
  * Android database with room
  * Android database with SQLite
 ## Android Notification
  * Android Notification
-# Firebase Authentication - Google Login
-## Build App Chat Basic Example 
+# WebSocket
+## [Build App Chat Basic Example ](https://github.com/halonext/Android/tree/android/WSChat)
+
 
 
 
