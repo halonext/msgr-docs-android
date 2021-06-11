@@ -15,8 +15,6 @@
  * [Share App Data](https://github.com/halonext/Android/wiki/Share-App-Data)
 ## Android Fragments
  * [Android Fragments](https://github.com/halonext/Android/wiki/Android-Fragments)
-## Navigation
- * Navigation 
 ## Android Widgets
 * [UI Widgets](https://github.com/halonext/AndroidGuideline/wiki/Android-Widgets)
 * [Manifest.permission](https://developer.android.com/reference/kotlin/android/Manifest.permission)
