@@ -63,9 +63,8 @@
   * [Popup Menu](https://github.com/halonext/Android/wiki/Popup-Menu)
 ## Android database
  * Android database with room
- * Android database with SQLite
-## Android Notification
- * Android Notification
+ * [Android database with room](https://github.com/halonext/docs.android/tree/android/DataRoomKotlin)
+
 # WebSocket
 ## [Build App Chat Basic Example ](https://github.com/halonext/Android/tree/android/WSChat)
 
