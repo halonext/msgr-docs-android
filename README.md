@@ -62,7 +62,6 @@
   * [Context Menu](https://github.com/halonext/Android/wiki/Context-Menu)
   * [Popup Menu](https://github.com/halonext/Android/wiki/Popup-Menu)
 ## Android database
- * Android database with room
  * [Android database with room](https://github.com/halonext/docs.android/tree/android/DataRoomKotlin)
 
 # WebSocket
