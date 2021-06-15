@@ -8,11 +8,17 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Base64
+
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.wschat.ultil.Constans
+import com.example.wschat.ultil.MyUltil
+import com.example.wschat.ultil.PayloadData
+import com.example.wschat.ultil.SocketData
+import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_chat.*
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
@@ -22,14 +28,20 @@ import java.io.ByteArrayOutputStream
 import java.io.FileNotFoundException
 
 
+var isConnect: Boolean = false
+
 class ChatActivity : AppCompatActivity(), TextWatcher {
+
 
     companion object {
         private lateinit var adapter: MessageAdapter
         private lateinit var webSocket: WebSocket
         private var name: String? = null
         private val IMAGE_REQUEST_ID = 1
-        private val SERVER_PATH = "ws://10.1.1.56:3000"
+        private val SERVER_PATH = "wss://msgr-gw-dev.hlapis.com/messenger/v2/gateway"
+        var socketData = SocketData()
+        var payloadData = PayloadData()
+        val gson = Gson()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +50,15 @@ class ChatActivity : AppCompatActivity(), TextWatcher {
 
         name = intent.getStringExtra("name")
         initiateSocketConnection()
+        if (isConnect) {
+            payloadData.token = Constans.tokenSocket
+            socketData.event = Constans.identify
+            socketData.payload = payloadData
+            val jsonString: String = gson.toJson(socketData)
+            val a = MyUltil.encodeUT(jsonString)
+            webSocket.send(a.toString())
+
+        }
         intallView()
 
     }
@@ -46,33 +67,37 @@ class ChatActivity : AppCompatActivity(), TextWatcher {
         messageList.layoutManager = LinearLayoutManager(this)
         adapter = MessageAdapter()
         messageList.adapter = adapter
-
         messageEdit.addTextChangedListener(this)
 
-        sendBtn.setOnClickListener { v: View? ->
-            val jsonObject = JSONObject()
-            try {
-                jsonObject.put("name", name)
-                jsonObject.put("message", messageEdit.text.toString())
-                webSocket.send(jsonObject.toString())
-                jsonObject.put("isSent", true)
-                adapter.addItem(jsonObject)
-                messageList.smoothScrollToPosition(adapter.getItemCount() - 1)
-                resetMessageEdit()
 
-            } catch (e: JSONException) {
-                e.printStackTrace()
-            }
-        }
-
-        pickImgBtn.setOnClickListener { v: View? ->
-            val intent = Intent(Intent.ACTION_GET_CONTENT)
-            intent.type = "image/*"
-            startActivityForResult(
-                Intent.createChooser(intent, "Pick image"),
-                IMAGE_REQUEST_ID
-            )
-        }
+//        sendBtn.setOnClickListener { v: View? ->
+//            var socketData = SocketData()
+//            var payloadData = PayloadData()
+//            val gson = Gson()
+//            try {
+////                socketData.name = name.toString()
+////                socketData.message = messageEdit.text.toString()
+//                payloadData.token = Constans.tokenSocket
+//                socketData.event = Constans.identify
+//                socketData.payload = payloadData
+//
+//                val jsonString: String = gson.toJson(socketData)
+//
+//                webSocket.send(jsonString)
+//
+//            } catch (e: JSONException) {
+//                e.printStackTrace()
+//            }
+//        }
+//
+//        pickImgBtn.setOnClickListener { v: View? ->
+//            val intent = Intent(Intent.ACTION_GET_CONTENT)
+//            intent.type = "image/*"
+//            startActivityForResult(
+//                Intent.createChooser(intent, "Pick image"),
+//                IMAGE_REQUEST_ID
+//            )
+//        }
     }
 
     private fun resetMessageEdit() {
@@ -98,7 +123,6 @@ class ChatActivity : AppCompatActivity(), TextWatcher {
     }
 
     inner class SocketListener : WebSocketListener() {
-
         override fun onOpen(webSocket: WebSocket, response: Response) {
             super.onOpen(webSocket, response)
             runOnUiThread(Runnable {
@@ -107,23 +131,44 @@ class ChatActivity : AppCompatActivity(), TextWatcher {
                     "Socket Connection Successful!",
                     Toast.LENGTH_SHORT
                 ).show()
+
             })
+            isConnect = true
         }
 
-        override fun onMessage(webSocket: WebSocket, text: String) {
-            super.onMessage(webSocket, text)
 
-            runOnUiThread(Runnable {
-                try {
-                    val jsonObject = JSONObject(text)
-                    jsonObject.put("isSent", false)
-                    adapter.addItem(jsonObject)
-                    messageList.smoothScrollToPosition(adapter.getItemCount() - 1)
-                } catch (e: JSONException) {
-                    e.printStackTrace()
-                }
-            })
-        }
+//        override fun onMessage(webSocket: WebSocket, text: String) {
+//            super.onMessage(webSocket, text)
+//
+//            runOnUiThread(Runnable {
+//                try {
+//                    val jsonObject = JSONObject(text)
+//                    adapter.addItem(jsonObject)
+//                    messageList.smoothScrollToPosition(adapter.getItemCount() - 1)
+//
+//                } catch (e: JSONException) {
+//                    e.printStackTrace()
+//                }
+//            })
+//        }
+
+//        override fun onMessage(webSocket: WebSocket, bytes: ByteString) {
+//            super.onMessage(webSocket, bytes)
+//
+//        }
+
+
+
+//        override fun onClosed(webSocket: WebSocket, code: Int, reason: String) {
+//            super.onClosed(webSocket, code, reason)
+//            runOnUiThread(Runnable {
+//                Toast.makeText(
+//                    this@ChatActivity,
+//                    "Socket Connection Closed !",
+//                    Toast.LENGTH_SHORT
+//                ).show()
+//            })
+//        }
     }
 
 
